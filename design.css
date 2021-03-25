@@ -1,0 +1,50 @@
+body {
+    background-color: #f2edd7;
+    
+    height:100vh;
+    width: 100%;
+    display: inline-block;
+    align-items: stretch;
+    justify-content: center;
+    
+    margin: 0;
+    padding: auto;
+}
+
+div{
+    height: 100%;
+    width: 100%;
+}
+
+.btn {
+    display: inline-block;
+    color: #f2edd7;
+    background-color: #f2edd7;
+    border: none;
+    
+    
+    padding: 10vh 10%;
+    margin: 0;
+    cursor: pointer;
+    opacity: 80%;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    /* flex: 1 1 auto; */
+}
+
+.btn:hover {
+    background-color: #e48257;
+    border: none;
+}
+
+h1{
+    font-family: 'Hachi Maru Pop', cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #1b1717;
+}
+
